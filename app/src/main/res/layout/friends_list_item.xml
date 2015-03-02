@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:id="@+id/profilePhoto"
+        android:src="@drawable/vk_dog"
+        android:layout_weight="0"
+        android:contentDescription="userPhoto" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_weight="0.99"
+        android:padding="5dp"
+        android:id="@+id/llText"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/name"
+            android:layout_weight="0.9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12sp"
+            android:text=""
+            android:id="@+id/urlProfile"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.9" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="95dp"
+        android:id="@+id/online"
+        android:layout_weight="0.01"
+        android:src="@drawable/dot_online"
+        android:contentDescription="isOnline" />
+</LinearLayout>

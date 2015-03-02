@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="vkfv_app_name">VKFV</string>
+    <string name="vkfv_full_app_name">VK Friends Viewer</string>
+    <string name="vk_logo">VK Logo</string>
+    <string name="sign_vk">Войти через ВКонтакте</string>
+
+    <string name="bdate">Дата рождения:</string>
+    <string name="city">Город:</string>
+    <string name="country">Страна:</string>
+    <string name="university">Университет:</string>
+    <string name="friends">Друзья</string>
+    <string name="other_connections">Другие соц. сети:</string>
+    <string name="online">Онлайн</string>
+    <string name="last_seen">Был(а) в сети </string>
+    <string name="yesterday">Вчера</string>
+
+    <string name="update">Обновить</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
